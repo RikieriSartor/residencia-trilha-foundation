@@ -144,7 +144,7 @@ function AuthScreen({ onAuthenticated }: { onAuthenticated: (user: Authenticated
       <header className="login-header"><Brand /><div className={`lab-status environment-status ${isMockMode ? "is-mock" : "is-production"}`}><span className="status-dot" />{environmentLabel}</div></header>
       <section className="login-story">
         <div className="story-code">MARKETPLACE FULL CYCLE</div>
-        <h1>Descubra. <em>Compre e venda.</em> - Versão 1.0.0</h1>
+        <h1>Descubra. <em>Compre e venda.</em> - Versão 1.0.<strong>1</strong></h1>
         <p>Uma experiência completa de marketplace, com identidade, catálogo, estoque, pedidos e processamento assíncrono.</p>
         <div className="journey-line">
           <div className="journey-item journey-item-active"><span>01</span><strong>Acesso</strong></div>
