@@ -139,6 +139,7 @@ export const handler = async (
     if (method === "GET" && path === "/products") {
       requireUser(event);
       const products = await repository.list();
+      console.log("products found", products.length);
       return json(200, { items: await Promise.all(products.map(withImageUrls)) });
     }
 
